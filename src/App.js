@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import { students } from './data/data';
 import StudentList from './components/StudentList';
-import { studentData } from './data/data';
+
 
 function App() {
+
   return (
-   <>
-   <StudentList student={studentData}/>
+    <>
+   <div>
+   <StudentList students={students}/>
+   </div>
    </>
   );
 }

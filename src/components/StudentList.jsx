@@ -1,13 +1,19 @@
-import { studentData } from "../data/data"
-import Score from "./Score"
+
+import Student from "./Student"
+
+
 function StudentList(props) {
-    return(
+    console.log(props, 'student')
+    return (
         <>
-        <h1> This is StudentList component.</h1>
-     
+            <h1> This is StudentList component.</h1>
+            {props.students.map((student,idx) =>
+                <Student key={idx} student={student} />
+            )};
+
 
         </>
     )
-    }
-    
-    export default StudentList
+}
+
+export default StudentList

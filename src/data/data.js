@@ -1,4 +1,4 @@
-export const studentData =[
+export const students = [
     [
         {
           name: 'Cait Yomorta',

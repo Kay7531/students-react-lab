@@ -3,12 +3,13 @@ import Student from "./Student"
 
 
 function StudentList(props) {
-    console.log(props, 'student')
+    console.log(props.students, 'student')
     return (
         <>
             <h1> This is StudentList component.</h1>
             {props.students.map((student,idx) =>
-                <Student key={idx} student={student} />
+           
+            <Student key={idx} student={student} />
             )};
 
 

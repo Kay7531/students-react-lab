@@ -1,4 +1,4 @@
-export const students = [
+export const students = 
     [
         {
           name: 'Cait Yomorta',
@@ -58,6 +58,6 @@ export const students = [
             }
           ]
         }
-      ]
+    ]
 
-]
+

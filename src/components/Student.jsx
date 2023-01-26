@@ -1,6 +1,7 @@
 
 import Score from "./Score"
 function Student(props) {
+    console.log(props)
     return (
         <>
             <h2>This is a Student component</h2>
